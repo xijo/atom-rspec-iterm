@@ -1,0 +1,38 @@
+{
+  "name": "rspec-iterm",
+  "main": "./lib/rspec-iterm",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "rspec-iterm:run-all",
+      "rspec-iterm:run-by-line"
+    ]
+  },
+  "repository": "https://github.com/xijo/atom-rspec-iterm",
+  "license": "WTFPL",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-osascript": "1.0.2"
+  },
+  "configSchema": {
+    "rspecCommand": {
+      "title": "rspec command",
+      "description": "Define the rspec command options to be used",
+      "type": [ "string" ],
+      "default": "bundle exec rspec",
+      "order": 1
+    },
+    "inBackground": {
+      "title": "Start in background?",
+      "description": "Decide whether to switch to iterm2 or stay in atom when rspec is triggered",
+      "type": [ "boolean" ],
+      "default": false,
+      "order": 2
+    }
+  }
+}

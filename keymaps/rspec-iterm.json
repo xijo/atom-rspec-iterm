@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "cmd-m": "rspec-iterm:run-all",
+    "alt-cmd-m": "rspec-iterm:run-by-line"
+  }
+}
