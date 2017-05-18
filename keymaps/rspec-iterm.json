@@ -1,5 +1,9 @@
 {
-  "atom-workspace": {
+  "atom-text-editor[data-grammar='source ruby']": {
+    "cmd-m": "rspec-iterm:run-all",
+    "alt-cmd-m": "rspec-iterm:run-by-line"
+  },
+  "atom-text-editor[data-grammar='source ruby rspec']": {
     "cmd-m": "rspec-iterm:run-all",
     "alt-cmd-m": "rspec-iterm:run-by-line"
   }
