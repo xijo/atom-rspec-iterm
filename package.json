@@ -1,7 +1,7 @@
 {
   "name": "rspec-iterm",
   "main": "./lib/rspec-iterm",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Relay rspec commands to iterm2",
   "keywords": [],
   "activationCommands": {
