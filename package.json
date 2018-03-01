@@ -16,7 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "node-osascript": "1.0.2"
+    "osascript": "1.2.0"
   },
   "configSchema": {
     "rspecCommand": {
